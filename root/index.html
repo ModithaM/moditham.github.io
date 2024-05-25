@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+        <title>Moditha Marasingha</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+            <div class="navigationheader">
+                <header>
+                    <nav>
+                        <a href="#home"><img src="/images/logo.png" alt="Logo" width="200px"></a>
+                        
+                        <ul class="sidebar">   
+                            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#projects">projects</a></li>
+                            <li><a href="#contactme">Contact Me</a></li>
+                        </ul>
+
+                        <ul>
+                            <li class="hideOnMobile"><a href="#home">Home</a></li>
+                            <li class="hideOnMobile"><a href="#about">About</a></li>
+                            <li class="hideOnMobile"><a href="#projects">projects</a></li>
+                            <li class="hideOnMobile"><a href="#contactme"><span class="Contact">Contact Me</span></a></li>
+                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+                        </ul>
+
+                    </nav>
+                </header>
+            </div>
+
+            <script>
+                function showSidebar(){
+                  const sidebar = document.querySelector('.sidebar')
+                  sidebar.style.display = 'flex'
+                }
+                function hideSidebar(){
+                  const sidebar = document.querySelector('.sidebar')
+                  sidebar.style.display = 'none'
+                }
+            </script>
+
+            <div class="maincontent" id="home">
+                <div id="mydetails">
+                    <h1><span class="hello">Hello</span> I,m Moditha Marasingha</h1>
+                    <h2>Software Engineer</h2>
+                    <p>Welcome to my portfolio! I,m Moditha an aspiring IT professional currently studying at SLIIT.
+                        Within these pages, you'll find a 
+                        collection of my projects, experiences, and skills. 
+                    </p>
+                </div>
+
+                <div class="image">
+                    <img src="/images/me.jpeg"  width="500px" alt="me" class="me">
+                </div>
+                
+            </div>
+
+            <div class="about" id="about">
+                <div class="abouttitle">
+                    <p id="aboutp"><em>Get To Know More</em></p>
+                    <h1 id="aboutH">About Me</h1>
+                </div>
+                
+                <div class="about_container">
+                    <div class="about_grid">
+                        <div class="about_item">
+                            <img src="/images/verified.png" alt="expereance logo" width="45px">
+                            <h3>Experience</h3>
+                            <p>2+ Years</p>
+                            <p>Full Stack Developer</p>
+                        </div>
+
+                        <div class="about_item">
+                            <img src="/images/programming.png" alt="tech stack" width="45px">
+                            <h3>Tech Stack</h3>
+                            <p>HTML, CSS, C++, C, JavaScript, PHP</p>
+                        </div>
+
+                        <div class="about_item">
+                            <img src="/images/education.png" alt="education logo" width="45px">
+                            <h3>Education</h3>
+                            <p>Undergraduate at SLIIT</p>
+                            <p>Bsc in Software Engineering</p>
+                        </div>
+                    
+                    </div>
+                    <div class="about_paragraph">
+                        <p><span class="hello">Hello!</span> I'm Moditha Marasingha, a software engineering student at SLIIT 
+                            (Sri Lanka Institute of Information Technology),
+                             pursuing a BSc in Software Engineering. My journey into coding 
+                             began with a curiosity about how things work and has grown into
+                              a passion for full-stack development. I have a strong foundation 
+                              in HTML, CSS, JavaScript, PHP, and C, and I enjoy working on both 
+                              front-end and back-end aspects of web projects. My goal is to become 
+                              an exceptional problem solver, and I thrive on the challenges that come 
+                              with development. Beyond coding, I enjoy Making electronics. Thank you for visiting my website; feel free to explore my 
+                              projects and reach out for collaboration or tech chats!
+                            </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="projects" id="projects">
+
+                <div class="abouttitle">
+                    <p id="aboutp"><em>Showcase of Work</em></p>
+                    <h1 id="aboutH">previous Projects</h1>
+                </div>
+
+                <div class="projectcontainer">
+                    <div class="boxes">
+                        <img src="/images/download (1).webp" alt="project1" width="280px" height="160px">
+                        <h4><a href="" target="_blank">Ecommerce Site</a></h4>
+                        <p>This is my first website designed in css and css</p>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="/images/download.jpeg" alt="project1" width="280px" height="160px">
+                        <h4><a href="" target="_blank">Blog</a></h4>
+                        <p>This is my first website designed in css and css</p>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="/images/website-design-idea-gradients-in-web-design-example-4.jpg" alt="project1" width="280px" height="160px">
+                        <h4><a href="" target="_blank">News Site</a></h4>
+                        <p>This is my first website designed in css and html</p>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="/images/CSS-Profile-Card-Design-1.webp" alt="project1" width="280px" height="160px">
+                        <h4><a href="" target="_blank">Project Dashboard</a></h4>
+                        <p>This is my first website designed in css and html</p>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="/images/download (2).jpeg" alt="project1" width="280px" height="160px">
+                        <h4><a href="" target="_blank">portfolio</a></h4>
+                        <p>This is my first website designed in css and html hello hello helo hello ekko</p>
+                    </div>
+
+                    <div class="boxes">
+                        <img src="/images/download (3).jpeg" alt="project1" width="280px" height="160px">
+                        <h4><a href="" target="_blank">Image Display Site</a></h4>
+                        <p>This is my first website designed in css and html</p>
+                    </div>
+
+                </div>
+            
+            </div>
+
+            <div class="contactme" id="contactme">
+
+                <div class="abouttitle">
+                    <p id="aboutp"><em>Get in Touch</em></p>
+                    <h1 id="aboutH">Contact Me</h1>
+                </div>
+
+                <div class="socialcontainer">
+                    <div class="icons">
+                        <a href="https://github.com/ModithaM" target="_blank">
+                            <ion-icon name="logo-github" title="Github" id="github"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="icons">
+                        <a href="" target="_blank">
+                            <ion-icon name="logo-instagram" title="Instagram" id="Instagram"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/moditha-marasingha/" target="_blank">
+                            <ion-icon name="logo-linkedin" title="Linkedin" id="Linkedin"></ion-icon>
+                        </a>
+                    </div>
+
+                    <div class="icons">
+                        <a href="mailto: marasinghamoditha51@gmail.com">
+                            <ion-icon name="mail-outline" title="Email" id="Email"></ion-icon>
+                        </a>
+                    </div>
+
+                </div>
+
+                <div class="mymail">
+                    <p><b>Email:</b><a href="mailto: marasinghamoditha51@gmail.com"> marasinghamoditha51@gmail.com</a></p>
+                </div>
+
+
+                <footer class="footer">
+                    <p>Copyright &copy; 2024 | Designed by Moditha</p>
+                </footer>
+            </div>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    </body>
+
+</html>
