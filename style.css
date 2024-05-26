@@ -339,8 +339,7 @@ a:hover{
 .footer{
     position: relative;
     text-align: center;
-    top: 280px;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 
@@ -356,9 +355,6 @@ a:hover{
         min-height: 1070px;
     }
 
-    .footer{
-        top: 225px;
-    }
 }
 
 @media (width < 750px){
