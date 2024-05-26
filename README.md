@@ -1,5 +1,5 @@
 <h1>My Portfolio Website</h1>
-<p>Welcome to my personal portfolio website! This project showcases my skills and work as a web developer. The website is entirely designed and coded by me using HTML, CSS, and JavaScript.
+<p>Welcome to my personal portfolio website repository. This project showcases my skills and work as a web developer. The website is entirely designed and coded by me using HTML, CSS, and JavaScript.
 </p>
 <h2>Features</h2>
 <ul>
