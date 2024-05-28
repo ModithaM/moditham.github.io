@@ -346,6 +346,38 @@ a:hover{
     padding: 10px;
 }
 
+/*Preloader styles start*/
+
+.loading-gif {
+    max-width: 250px;
+}
+
+.pre-loader {
+    position: fixed;
+    z-index: 1001; /** make sure this is the highest value compared to all other divs **/
+    top: 0;
+    left: 0;
+    background: #191f26;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.pre-loader.hidden {
+    animation: fadeOut 2s; /** change to 1s */
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+/*Preloader styles end*/
 
 @media(max-width: 1224px){
 

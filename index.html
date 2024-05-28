@@ -206,8 +206,20 @@
                 <p>&copy; | 2024 | Designed by Moditha</p>
             </footer>
 
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+            <!--Pre loader div-->
+            <div class='pre-loader'>
+                <img class='loading-gif' alt='loading' src="./images/preloader.gif"/>
+            </div>
+
+            <!-- js to hide preloader loading is done -->
+            <script type='text/javascript'>
+                window.addEventListener('load', function () {
+                    document.querySelector('.pre-loader').className += ' hidden';
+                });
+            </script>
+
+            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
     </body>
 
