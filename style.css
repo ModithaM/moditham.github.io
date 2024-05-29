@@ -156,7 +156,7 @@ a:hover{
 }
 
 .hello{
-    color: rgb(186, 112, 243);
+    color: #ba70f3;
 }
 
 
@@ -348,16 +348,32 @@ a:hover{
 
 /*Preloader styles start*/
 
-.loading-gif {
-    max-width: 250px;
-}
+.cssanimation{
+    width: 70px;
+    aspect-ratio: 1;
+    --c: no-repeat linear-gradient(#ba70f3 0 0);
+    background:
+    var(--c) 0% 50%,
+    var(--c) 50% 50%,
+    var(--c) 100% 50%;
+    background-size: 20% 100%;
+    animation: l1 1s infinite linear;
+    }
 
-.pre-loader {
+    @keyframes l1{
+    0% {background-size: 20% 100%,20% 100%,20% 100%}
+    33% {background-size: 20% 10% ,20% 100%,20% 100%}
+    50% {background-size: 20% 100%,20% 10% ,20% 100%}
+    66% {background-size: 20% 100%,20% 100%,20% 10% }
+    100%{background-size: 20% 100%,20% 100%,20% 100%}
+    }
+
+.pre-loader{
     position: fixed;
     z-index: 1001; /** make sure this is the highest value compared to all other divs **/
     top: 0;
     left: 0;
-    background: rgb(253, 253, 253);
+    background: #eff4fd;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,12 +381,12 @@ a:hover{
     width: 100%;
 }
 
-.pre-loader.hidden {
+.pre-loader.hidden{
     animation: fadeOut 2s; /** change to 1s */
     animation-fill-mode: forwards;
 }
 
-@keyframes fadeOut {
+@keyframes fadeOut{
     100% {
         opacity: 0;
         visibility: hidden;
