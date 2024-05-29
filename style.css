@@ -357,7 +357,7 @@ a:hover{
     z-index: 1001; /** make sure this is the highest value compared to all other divs **/
     top: 0;
     left: 0;
-    background: #191f26;
+    background: rgb(253, 253, 253);
     display: flex;
     justify-content: center;
     align-items: center;
