@@ -167,7 +167,7 @@ a:hover{
 .about{
     background-color: #e0e7f2;
     width: 100%;
-    min-height: 675px;
+    height: auto;
 }
 
 .abouttitle{
@@ -223,7 +223,11 @@ a:hover{
 }
 
 .about_paragraph p{
-    padding-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.about_paragraph .lastp{
+    padding-bottom: 50px;
 }
 
 /*Projects Section*/
