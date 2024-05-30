@@ -125,6 +125,11 @@ a:hover{
     text-align: center;
 }
 
+#mydetails h2{
+    white-space: nowrap;
+    overflow: hidden;
+}
+
 .image{
     display: grid;
     place-items: center;
