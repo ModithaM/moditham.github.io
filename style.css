@@ -72,7 +72,7 @@ nav ul li a{
     display: none;
 }
 
-@media(max-width: 770px){
+@media(max-width: 866px){
     .hideOnMobile{
       display: none;
     }
