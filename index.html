@@ -42,18 +42,6 @@
                 </header>
             </div>
 
-                <!--js for responsive nav bar-->
-            <script>
-                function showSidebar(){
-                  const sidebar = document.querySelector('.sidebar')
-                  sidebar.style.display = 'flex'
-                }
-                function hideSidebar(){
-                  const sidebar = document.querySelector('.sidebar')
-                  sidebar.style.display = 'none'
-                }
-            </script>
-
             <div class="maincontent" id="home">
                 <div id="mydetails">
                     <h1><span class="hello">Hi, I'm</span> Moditha Marasingha</h1>
@@ -69,43 +57,6 @@
                 </div>
             </div>
 
-            <!--js for changing mydetail h2-->
-            <script>
-                const words = ["Software Engineer", "Frontend Developer", "SEO Specialist"];
-                let currentWordIndex = 0;
-                let currentCharIndex = 0;
-                const typingSpeed = 200; // Speed of typing
-                const erasingSpeed = 100; // Speed of erasing
-                const delayBetweenWords = 2000; // Delay between words
-
-                const animatedTextElement = document.getElementById("animated-text");
-
-                function typeWord() {
-                    if (currentCharIndex < words[currentWordIndex].length) {
-                        animatedTextElement.textContent += words[currentWordIndex].charAt(currentCharIndex);
-                        currentCharIndex++;
-                        setTimeout(typeWord, typingSpeed);
-                    } else {
-                        setTimeout(eraseWord, delayBetweenWords);
-                    }
-                }
-
-                function eraseWord() {
-                    if (currentCharIndex > 0) {
-                        animatedTextElement.textContent = animatedTextElement.textContent.slice(0, -1);
-                        currentCharIndex--;
-                        setTimeout(eraseWord, erasingSpeed);
-                    } else {
-                        currentWordIndex = (currentWordIndex + 1) % words.length;
-                        setTimeout(typeWord, typingSpeed);
-                    }
-                }
-
-                // Start the typing animation
-                document.addEventListener("DOMContentLoaded", () => {
-                    setTimeout(typeWord, typingSpeed);
-                });
-            </script>
 
             <div class="about" id="about">
                 <div class="abouttitle">
@@ -266,17 +217,13 @@
             <div class='pre-loader'>
                 <div class="cssanimation"></div>
             </div>
-
-            <!-- js to hide preloader loading is done -->
-            <script type='text/javascript'>
-                window.addEventListener('load', function () {
-                    document.querySelector('.pre-loader').className += ' hidden';
-                });
-            </script>
             
             <!--font for hamburger menu-->
             <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
             <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+            <!--js file linked-->
+            <script src="script.js"></script>
 
     </body>
 
