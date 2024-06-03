@@ -94,16 +94,16 @@ a:hover{
 }
 
 .Contact{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 2px solid black;
-    border-radius: 100px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    color: #eff4fd;
+    border: 2px solid #ba70f3;
+    background-color: #ba70f3;
 }
 
 .Contact:hover{
-    border: 2px solid #ba70f3;
+    background-color: transparent;
+    color: #ba70f3;
 }
 
 /*Home Section*/
