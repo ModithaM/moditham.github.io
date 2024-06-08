@@ -235,6 +235,17 @@ a:hover{
     padding-bottom: 50px;
 }
 
+.stackiconscontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 15px;
+}
+
+.stackicons img{
+    width: 60px;
+}
 /*Projects Section*/
 
 .projects{
