@@ -15,4 +15,4 @@
   <li><b>JavaScript</b>: Added interactivity, including the implementation of the hamburger menu for better mobile navigation.</li>
 </ul>
 <h2>Usage</h2>
-<p>To view and interact with the website, simply open the index.html file in your preferred web browser or click [HERE](https://moditham.github.io/). For developers interested in the code, feel free to explore the repository.</p>
+<p>To view and interact with the website, simply open the index.html file in your preferred web browser or click <a href="https://moditham.github.io/" target="_blank">HERE</a>. For developers interested in the code, feel free to explore the repository.</p>
