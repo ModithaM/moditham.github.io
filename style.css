@@ -301,19 +301,22 @@ a:hover{
 .contactme{
     background-color: #e0e7f2;
     height: auto;
-    min-height: 470px;
+}
+
+.contacttitle{
+    padding-top: 90px;
 }
 
 .socialcontainer{
+    max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
     gap: 15px;
-    position: relative;
-    top: 120px;
-    left: 10%;
-    width: 80%;
-    margin-top: 20px;
 }
 
 .icons{
@@ -348,12 +351,9 @@ a:hover{
 }
 
 .mymail{
-    position: relative;
-    top: 160px;
-    left: 10%;
-    width: 80%;
     text-align: center;
     font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .mymail a{
@@ -441,6 +441,9 @@ a:hover{
     .stackicons img{
         width: 40px;
     }
+    .icons ion-icon {
+        font-size: 44px;
+    }
 }
 
 
@@ -453,9 +456,6 @@ a:hover{
 
 
 @media(max-width: 477px){
-    .contactme{
-        min-height: 490px;
-    }
     .mymail{
         font-size: 15px;
     }
@@ -466,14 +466,6 @@ a:hover{
    
     .projects{
         min-height: 1850px;
-    }
-
-}
-
-
-@media(max-width: 370px){
-    .contactme{
-        min-height: 530px;
     }
 }
 
