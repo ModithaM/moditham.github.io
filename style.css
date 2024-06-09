@@ -438,6 +438,9 @@ a:hover{
         padding: 10rem 1rem 5rem 1rem;
         grid-template-columns: repeat(1, 1fr);
     }
+    .stackicons img{
+        width: 40px;
+    }
 }
 
 
