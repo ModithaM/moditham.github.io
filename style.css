@@ -1,7 +1,7 @@
 *{
     margin: 0; /* "*" This is a CSS universal selector, which applies styles to all elements in the HTML document.*/
     padding: 0;
-    font-family: sans-serif;
+    font-family: Helvetica,sans-serif;
 }
 
 html{
@@ -78,6 +78,9 @@ nav ul li a{
     }
     .menu-button{
       display: block;
+    }
+    .contactform form{
+        min-width: 250px;
     }
 }
 
@@ -203,7 +206,8 @@ a:hover{
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    margin-bottom: 55px;
+    row-gap: 10px;
+    margin-bottom: 45px;
 }
 
 .about_item{
@@ -235,12 +239,23 @@ a:hover{
     padding-bottom: 50px;
 }
 
+.stack{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 10px;
+}
+
 .stackiconscontainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-bottom: 15px;
+    column-gap: 5px;
+    row-gap: 3px;
+    border: 2px solid black;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-top: 2px;
 }
 
 .stackicons img{
@@ -307,12 +322,61 @@ a:hover{
     padding-top: 90px;
 }
 
+.contactform{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contactform form{
+    width: 500px;
+    margin: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.contactform input{
+    min-height: 50px;
+    font-size: large;
+    border: 1px solid black;
+    margin-bottom: 7px;
+    padding-left: 5px;
+}
+
+.contactform textarea{
+    max-width: 500px;
+    min-height: 150px;
+    font-size: large;
+    padding: 5px;
+}
+
+.contactform button{
+    width: 100px;
+    height: 30px;
+    margin-top: 7px;
+    background-color: #ba70f3;
+    border: 1px solid #ba70f3;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.contactform button:hover{
+    background-color: transparent;
+    color: #ba70f3;
+}
+
 .socialcontainer{
     max-width: 1200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
