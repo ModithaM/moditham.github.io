@@ -264,13 +264,13 @@ a:hover{
 }
 
 .about_paragraph .lastp{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .stack{
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
 }
 
 .stackiconscontainer{
@@ -281,6 +281,7 @@ a:hover{
     column-gap: 5px;
     row-gap: 3px;
     border: 2px solid black;
+    border-radius: 15px;
     padding-top: 10px;
     padding-bottom: 8px;
     margin-top: 2px;
