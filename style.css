@@ -94,6 +94,7 @@ nav ul li a{
 
 a:hover{
     color: #ba70f3;
+    transition: 0.3s;
 }
 
 .Contact{
@@ -107,6 +108,7 @@ a:hover{
 .Contact:hover{
     background-color: transparent;
     color: #ba70f3;
+    transition: 0.4s;
 }
 
 /*Home Section*/
@@ -340,7 +342,7 @@ article a::after{
 article h2{
     margin: 0 0 18px 0;
     font-size: 1.9rem;
-    letter-spacing: 0.06em;
+    letter-spacing: 0.04em;
     color: var(--title-color);
     transition: color 0.3s ease-out;
 }
@@ -438,25 +440,27 @@ article:has(:hover, :focus){
     min-height: 50px;
     font-size: large;
     border: 1px solid black;
+    border-radius: 10px;
     margin-bottom: 7px;
-    padding-left: 5px;
+    padding-left: 10px;
 }
 
 .contactform textarea{
     max-width: 500px;
     min-height: 150px;
     font-size: large;
-    padding: 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 .contactform button{
-    width: 100px;
-    height: 30px;
+    width: 105px;
+    height: 35px;
     margin-top: 7px;
     background-color: #ba70f3;
     border: 1px solid #ba70f3;
     color: white;
-    font-size: 15px;
+    font-size: 16px;
     border-radius: 5px;
 }
 
@@ -488,7 +492,7 @@ article:has(:hover, :focus){
 }
 
 .icons ion-icon {
-    font-size: 64px;
+    font-size: 60px;
     text-decoration: none;
 }
 
