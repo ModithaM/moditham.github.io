@@ -511,7 +511,7 @@ article:has(:hover, :focus){
 .mymail{
     text-align: center;
     font-size: 20px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 .mymail a{
