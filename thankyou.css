@@ -1,0 +1,21 @@
+
+.tyou{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 95vh; 
+    text-align: center;
+}
+
+.tyou h1{
+    color: #ba70f3;
+}
+
+.tyou p{
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.tyou a{
+    text-decoration: none;
+}

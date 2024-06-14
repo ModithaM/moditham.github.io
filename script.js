@@ -74,8 +74,8 @@ function getYear() {
 
 getYear();
 
-//contact form js
 
+//contact form js
 const form = document.getElementById('form');
 const result = document.getElementById('result');
 
@@ -114,3 +114,9 @@ form.addEventListener('submit', function(e) {
             }, 3000);
         });
 });
+
+//Clear form after submission
+window.onload = function() {
+    // Reset the form fields when the page loads
+    document.getElementById("form").reset();
+};
