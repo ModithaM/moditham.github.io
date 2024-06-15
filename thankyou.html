@@ -1,64 +1,74 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <title>Thank You.</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="thankyou.css">
-        <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-    </head>
 
-    <body>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <title>Thank You.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="thankyou.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+</head>
 
-        <header>
-            <div class="navigationheader"> 
-                <nav>
-                    <a href="#home"><img src="./images/logo.png" alt="Logo" width="200px"></a>
-                    
-                    <!--Mobile Menu-->
-                    <ul class="sidebar">   
-                        <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-                        <li><a href="index#home">Home</a></li>
-                        <li><a href="index#about">About</a></li>
-                        <li><a href="index#projects">projects</a></li>
-                        <li><a href="MyBlog">Blog</a></li>
-                        <li><a href="index#contactme">Contact Me</a></li>
-                    </ul>
+<body>
 
-                    <!--PC Menu-->
-                    <ul>
-                        <li class="hideOnMobile"><a href="index#home">Home</a></li>
-                        <li class="hideOnMobile"><a href="index#about">About</a></li>
-                        <li class="hideOnMobile"><a href="index#projects">projects</a></li>
-                        <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
-                        <li class="hideOnMobile"><a href="index#contactme"><span class="Contact">Contact Me</span></a></li>
-                        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+    <header>
+        <div class="navigationheader">
+            <nav>
+                <a href="#home"><img src="./images/logo.png" alt="Logo" width="200px"></a>
 
-        <section class="tyou">
-            <div>
-                <img src="./images/mail done.png" alt="Email png" width="100px">
-                <h1>Form submitted successfully!</h1>
-                <p>Thank you for reaching out! Your message has been successfully sent.</p>
-                <a href="index#home"><p>Go Back</p></a>
-            </div>
-        </section>
+                <!--Mobile Menu-->
+                <ul class="sidebar">
+                    <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                                viewBox="0 96 960 960" width="26">
+                                <path
+                                    d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                            </svg></a></li>
+                    <li><a href="index#home">Home</a></li>
+                    <li><a href="index#about">About</a></li>
+                    <li><a href="index#projects">projects</a></li>
+                    <li><a href="MyBlog">Blog</a></li>
+                    <li><a href="index#contactme">Contact Me</a></li>
+                </ul>
+
+                <!--PC Menu-->
+                <ul>
+                    <li class="hideOnMobile"><a href="index#home">Home</a></li>
+                    <li class="hideOnMobile"><a href="index#about">About</a></li>
+                    <li class="hideOnMobile"><a href="index#projects">projects</a></li>
+                    <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
+                    <li class="hideOnMobile"><a href="index#contactme"><span class="Contact">Contact Me</span></a></li>
+                    <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="26" viewBox="0 96 960 960" width="26">
+                                <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                            </svg></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="tyou">
+        <div>
+            <img src="./images/mail done.png" alt="Email png" width="100px">
+            <h1>Form submitted successfully!</h1>
+            <p>Thank you for reaching out! Your message has been successfully sent.</p>
+            <a href="index#home">
+                <p>Go Back</p>
+            </a>
+        </div>
+    </section>
 
 
-        <footer class="footer">
-            <p>&copy; <span id="displayYear"></span> Moditha | All rights reserved.</p>
-        </footer>
+    <footer class="footer">
+        <p>&copy; <span id="displayYear"></span> Moditha | All rights reserved.</p>
+    </footer>
 
-        <!--js file linked-->
-        <script src="script.js"></script>
-        
-    </body>
+    <!--js file linked-->
+    <script src="script.js"></script>
+
+</body>
 
 </html>
