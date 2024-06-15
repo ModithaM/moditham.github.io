@@ -143,13 +143,13 @@ a:hover{
 .image img{
     width: min(25rem, 90%);
     border-radius: 25px;
-    box-shadow: 0px 0px 40px 10px #ad8ec5;
+    box-shadow: 0px 0px 60px 10px #ad8ec5;
     /* in order: x offset, y offset, blur size, spread size, color */
     -webkit-animation: upDown 8s infinite;
           animation: upDown 8s infinite;
 }
 
-@-webkit-keyframes upDown {
+@-webkit-keyframes upDown{
     0% {
       -webkit-transform: translateY(-35px);
               transform: translateY(-35px);
@@ -162,9 +162,9 @@ a:hover{
       -webkit-transform: translateY(-35px);
               transform: translateY(-35px);
     }
-  }
+}
   
-  @keyframes upDown {
+  @keyframes upDown{
     0% {
       -webkit-transform: translateY(-35px);
               transform: translateY(-35px);
@@ -177,7 +177,13 @@ a:hover{
       -webkit-transform: translateY(-35px);
               transform: translateY(-35px);
     }
-  }
+}
+
+.image img:hover{
+    box-shadow: 0px 0px 60px 25px #ad8ec5;
+    /* in order: x offset, y offset, blur size, spread size, color */
+    transition: 0.5s;
+}
 
 
 #mydetails h1{
@@ -487,8 +493,8 @@ article:has(:hover, :focus){
 }
 
 .icons:hover{
-    background-color: #eff4fd;
-    transition: 0.9s;
+    transform: scale(1.15);
+    transition: 0.4s;
 }
 
 .icons ion-icon {
