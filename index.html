@@ -1,376 +1,411 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-        <title>Moditha Marasingha</title>
-        <link rel="stylesheet" href="style.css">
-        <meta name="description" content="Explore the portfolio of Moditha Marasingha, a Software Engineer undergraduate. Skilled in full stack development.">
-        <meta name="keywords" content="ModithaM, Moditha, Web Developer, Software Engineer, Moditha Marasingha, Backend Developer">
-        <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
-    </head>
 
-    <body>
+<head lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <title>Moditha Marasingha</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="description"
+    content="Explore the portfolio of Moditha Marasingha, a Software Engineer undergraduate. Skilled in full stack development.">
+  <meta name="keywords"
+    content="ModithaM, Moditha, Web Developer, Software Engineer, Moditha Marasingha, Backend Developer">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+</head>
 
-            <div class="navigationheader">
-                <header>
-                    <nav>
-                        <a href="https://moditham.github.io/"><img src="./images/logo.png" alt="Logo" width="200px"></a>
-                       
-                        <!--Mobile Menu-->
-                        <ul class="sidebar">   
-                            <li onclick="(function(event) { event.preventDefault(); hideSidebar(); })(event)"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#projects">projects</a></li>
-                            <li><a href="MyBlog">Blog</a></li>
-                            <li><a href="#contactme">Contact Me</a></li>
-                        </ul>
-
-                        <!--PC Menu-->
-                        <ul>
-                            <li class="hideOnMobile"><a href="#home">Home</a></li>
-                            <li class="hideOnMobile"><a href="#about">About</a></li>
-                            <li class="hideOnMobile"><a href="#projects">projects</a></li>
-                            <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
-                            <li class="hideOnMobile"><a href="#contactme"><span class="Contact">Contact Me</span></a></li>
-                            <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
-                        </ul>
-
-                    </nav>
-                </header>
-            </div>
-
-            <div class="maincontent" id="home">
-                <div id="mydetails">
-                    <h1><span class="hello">Hi, I'm</span> Moditha Marasingha</h1>
-                    <h2 id="animated-text">I'm a </h2>
-                    <p>Welcome to my portfolio! I,m Moditha an aspiring IT professional currently studying at SLIIT.
-                        Within these pages, you'll find a 
-                        collection of my projects, experiences, and skills. 
-                    </p>
-                </div>
-
-                <div class="image">
-                    <img src="./images/me.jpeg"  width="500px" alt="me">
-                </div>
-            </div>
+<body>
 
 
-            <div class="about" id="about">
-                <div class="abouttitle">
-                    <p id="aboutp"><em>Get To Know More</em></p>
-                    <h1 id="aboutH">About Me</h1>
-                </div>
-                
-                <div class="about_container">
-                    <div class="about_grid">
-                        <div class="about_item">
-                            <img src="./images/verified.png" alt="expereance logo" width="45px">
-                            <h3>Experience</h3>
-                            <p>2+ Years</p>
-                            <p>Full Stack Developer</p>
-                        </div>
+  <header class="navigationheader">
+    <nav>
+      <a href="https://moditham.github.io/"><img src="./images/logo.png" alt="Logo" width="200px"></a>
 
-                        <div class="about_item">
-                            <img src="./images/programming.png" alt="tech stack" width="45px">
-                            <h3>Tech Stack</h3>
-                            <p>HTML, CSS, C++, C, JavaScript, PHP</p>
-                        </div>
+      <!--Mobile Menu-->
+      <ul class="sidebar">
+        <li onclick="(function(event) { event.preventDefault(); hideSidebar(); })(event)"><a href="#"><svg
+              xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+            </svg></a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="MyBlog">Blog</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+      </ul>
 
-                        <div class="about_item">
-                            <img src="./images/education.png" alt="education logo" width="45px">
-                            <h3>Education</h3>
-                            <p>Undergraduate at SLIIT</p>
-                            <p>Bsc in Software Engineering</p>
-                        </div>
-                    
-                    </div>
-                    <div class="about_paragraph">
-                        <p><span class="hello">Hello!</span> 
-                            I'm Moditha Marasingha, a passionate Software Engineering undergraduate at SLIIT University. With a 
-                            solid foundation in HTML, CSS, JavaScript, PHP, and C, I specialize in building innovative web solutions 
-                            to tackle real-world problems.
-                        </p>
+      <!--PC Menu-->
+      <ul>
+        <li class="hideOnMobile"><a href="#home">Home</a></li>
+        <li class="hideOnMobile"><a href="#about">About</a></li>
+        <li class="hideOnMobile"><a href="#projects">projects</a></li>
+        <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
+        <li class="hideOnMobile"><a href="#contactme"><span class="Contact">Contact Me</span></a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26">
+              <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg></a></li>
+      </ul>
 
-                        <p>
-                            In addition to my development skills, I have expertise in SEO, Google Analytics, Google Search 
-                            Console, and ad networks like AdSense and Ezoic. This unique combination allows me to not only build 
-                            functional and appealing websites but also ensure they are optimized for search engines and monetized 
-                            effectively.
-                        </p>
+    </nav>
+  </header>
 
-                        <p>
-                            Beyond the screen, I'm an avid enthusiast of IoT and IIoT projects, often tinkering with Arduino and 
-                            NodeMCU modules. Coding is not just a skill for me—it's a love that drives my curiosity and creativity.
-                        </p>
 
-                        <p>
-                            My career goal is to become a leading software engineer who contributes to cutting-edge technologies and 
-                            impactful projects. I'm committed to continuous learning and growth, both professionally and personally.
-                        </p>
+  <section class="maincontent" id="home">
+    <div id="mydetails">
+      <h1><span class="hello">Hi, I'm</span> Moditha Marasingha</h1>
+      <h2 id="animated-text">I'm a </h2>
+      <p>Welcome to my portfolio! I,m Moditha an aspiring IT professional currently studying at SLIIT.
+        Within these pages, you'll find a
+        collection of my projects, experiences, and skills.
+      </p>
+    </div>
 
-                        <p class="lastp">
-                            When I'm not coding, I enjoy exploring new tech trends, reading about advancements in IoT, and 
-                            experimenting with new gadgets. Thank you for visiting my website; feel free to explore my projects and reach out
-                             for collaboration or tech chats!
-                        </p>
+    <div class="image">
+      <img src="./images/me.jpeg" width="500px" alt="me">
+    </div>
+  </section>
 
-                    </div>
 
-                    <div class="stack">
-                        <h3>Languages and Tools</h3>
+  <section class="about" id="about">
+    <div class="abouttitle">
+      <p id="aboutp"><em>Get To Know More</em></p>
+      <h1 id="aboutH">About Me</h1>
+    </div>
 
-                        <div class="stackiconscontainer">
-                            <div class="stackicons">
-                                <img src="./images/html-5.png" alt="HTML Logo" title="HTML">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/css-3.png" alt="CSS Logo" title="CSS">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/js.png" alt="Javascript Logo" title="Javascript">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/php.png" alt="PHP Logo" title="PHP">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/c-.png" alt="C++ Logo" title="C++">
-                            </div>
-                            <div class="stackicons">
-                                <img src="/images/pngwing.com (1).png" alt="C Logo" title="C">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/pngwing.com.png" alt="Arduino Logo" title="Arduino">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/SQL.png" alt="Arduino Logo" title="SQL">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/VsCode.png" alt="Arduino Logo" title="Vs Code">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/Github.png" alt="Arduino Logo" title="Github">
-                            </div>
-                            <div class="stackicons">
-                                <img src="./images/Wordpress.png" alt="Arduino Logo" title="Wordpress">
-                            </div>
-                        </div>
-                    </div>
+    <div class="about_container">
+      <div class="about_grid">
+        <div class="about_item">
+          <img src="./images/verified.png" alt="expereance logo" width="45px">
+          <h3>Experience</h3>
+          <p>2+ Years</p>
+          <p>Full Stack Developer</p>
+        </div>
 
-                </div>
-            </div>
+        <div class="about_item">
+          <img src="./images/programming.png" alt="tech stack" width="45px">
+          <h3>Tech Stack</h3>
+          <p>HTML, CSS, C++, C, JavaScript, PHP</p>
+        </div>
 
-            <div class="projects" id="projects">
+        <div class="about_item">
+          <img src="./images/education.png" alt="education logo" width="45px">
+          <h3>Education</h3>
+          <p>Undergraduate at SLIIT</p>
+          <p>Bsc in Software Engineering</p>
+        </div>
 
-                <div class="contacttitle">
-                    <p id="aboutp"><em>Showcase of Work</em></p>
-                    <h1 id="aboutH">previous Projects</h1>
-                </div>
+      </div>
+      <div class="about_paragraph">
+        <p><span class="hello">Hello!</span>
+          I'm Moditha Marasingha, a passionate Software Engineering undergraduate at SLIIT University. With a
+          solid foundation in HTML, CSS, JavaScript, PHP, and C, I specialize in building innovative web solutions
+          to tackle real-world problems.
+        </p>
 
-                <div class="projectcontainer">
-                    <article>
-                        <div class="article-wrapper">
-                          <figure>
-                            <img src="./images/My Portfolio.png" alt="My Portfolio Screenshot" />
-                          </figure>
-                          <div class="article-body">
-                            <h2>My Portfolio</h2>
-                            <p>
-                                This portfolio is a prime example of my web development skills, designed and coded entirely using HTML, CSS, and JavaScript without the use of any CSS libraries. It demonstrates my ability to create responsive, user-friendly, and visually appealing web designs through clean and efficient code.
-                            </p>
-                            <a href="https://github.com/ModithaM/moditham.github.io" target="_blank" class="read-more">
-                                View Project <span class="sr-only">about this is some title</span>
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                      </article>
-                      <article>
-                    
-                        <div class="article-wrapper">
-                          <figure>
-                            <img src="./images/tipfordiy.com.jpg" alt="Tipfordiy.com" />
-                          </figure>
-                          <div class="article-body">
-                            <h2>Blog</h2>
-                            <p>
-                                I developed and manage a WordPress blog focused on the DIY niche, where I publish weekly blog posts showcasing creative and detailed DIY projects. This blog not only highlights my expertise in content creation but also demonstrates my proficiency in WordPress development and web design.
-                            </p>
-                            <a href="https://www.tipfordiy.com/" target="_blank" class="read-more">
-                                View Project <span class="sr-only">about this is some title</span>
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                      </article>
-                      <article>
-                    
-                        <div class="article-wrapper">
-                          <figure>
-                            <img src="./images/website-design-idea-gradients-in-web-design-example-4.jpg" alt="" />
-                          </figure>
-                          <div class="article-body">
-                            <h2>Upcoming Project</h2>
-                            <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sed ut. Iste quisquam praesentium numquam eveniet pariatur vitae veritatis error, enim commodi asperiores. Aut aperiam consequatur alias numquam, perspiciatis nulla.
-                            </p>
-                            <a href="#" class="read-more">
-                                View Project <span class="sr-only">about this is some title</span>
-                              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                                <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                              </svg>
-                            </a>
-                          </div>
-                        </div>
-                      </article>
-              
-                      <article>
-                          <div class="article-wrapper">
-                            <figure>
-                              <img src="./images/Upcoming P 1.jpeg" alt="" />
-                            </figure>
-                            <div class="article-body">
-                              <h2>Upcoming Project</h2>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque obcaecati, officia velit delectus quibusdam animi dolores! Quisquam, repellat error totam ipsa quam, aliquam natus ratione ipsam quibusdam, sint reiciendis provident.
-                              </p>
-                              <a href="#" class="read-more">
-                                View Project <span class="sr-only">about this is some title</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                              </a>
-                            </div>
-                          </div>
-                        </article>
-              
-                        <article>
-                          <div class="article-wrapper">
-                            <figure>
-                              <img src="./images/Upcoming P 2.webp" alt="" />
-                            </figure>
-                            <div class="article-body">
-                              <h2>Upcoming Project</h2>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum hic illum amet est reprehenderit voluptas possimus, beatae laudantium sunt natus eum eveniet tempora earum quis quae magnam, asperiores fugit.
-                              </p>
-                              <a href="#" class="read-more">
-                                View Project <span class="sr-only">about this is some title</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                              </a>
-                            </div>
-                          </div>
-                        </article>
-              
-                        <article>
-                          <div class="article-wrapper">
-                            <figure>
-                              <img src="./images/Upcoming p 3.png" alt="" />
-                            </figure>
-                            <div class="article-body">
-                              <h2>Upcoming Project</h2>
-                              <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae a, impedit quis repudiandae, recusandae pariatur suscipit unde, quibusdam similique quaerat saepe ratione. Temporibus, magni expedita? Ut corporis aperiam ex modi.
-                              </p>
-                              <a href="#" class="read-more">
-                                View Project <span class="sr-only">about this is some title</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
-                                  <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
-                                </svg>
-                              </a>
-                            </div>
-                          </div>
-                        </article>
-                </div>
-            
-            </div>
+        <p>
+          In addition to my development skills, I have expertise in SEO, Google Analytics, Google Search
+          Console, and ad networks like AdSense and Ezoic. This unique combination allows me to not only build
+          functional and appealing websites but also ensure they are optimized for search engines and monetized
+          effectively.
+        </p>
 
-            <div class="contactme" id="contactme">
+        <p>
+          Beyond the screen, I'm an avid enthusiast of IoT and IIoT projects, often tinkering with Arduino and
+          NodeMCU modules. Coding is not just a skill for me—it's a love that drives my curiosity and creativity.
+        </p>
 
-                <div class="contacttitle">
-                    <p id="aboutp"><em>Get in Touch</em></p>
-                    <h1 id="aboutH">Contact Me</h1>
-                </div>
+        <p>
+          My career goal is to become a leading software engineer who contributes to cutting-edge technologies and
+          impactful projects. I'm committed to continuous learning and growth, both professionally and personally.
+        </p>
 
-                <div class="contactform">
-                    <form action="https://api.web3forms.com/submit" method="POST">
+        <p class="lastp">
+          When I'm not coding, I enjoy exploring new tech trends, reading about advancements in IoT, and
+          experimenting with new gadgets. Thank you for visiting my website; feel free to explore my projects and reach
+          out
+          for collaboration or tech chats!
+        </p>
 
-                        <!-- Replace with your Access Key -->
-                        <input type="hidden" name="access_key" value="2510f8a8-388f-4f7b-b618-f4200feff6da">
+      </div>
 
-                        <input type="hidden" name="subject" value="New Contact Form Submission From Portfolio">
+      <div class="stack">
+        <h3>Languages and Tools</h3>
 
-                        <input type="hidden" name="redirect" value="https://moditham.github.io//thankyou.html">
+        <div class="stackiconscontainer">
+          <div class="stackicons">
+            <img src="./images/html-5.png" alt="HTML Logo" title="HTML">
+          </div>
+          <div class="stackicons">
+            <img src="./images/css-3.png" alt="CSS Logo" title="CSS">
+          </div>
+          <div class="stackicons">
+            <img src="./images/js.png" alt="Javascript Logo" title="Javascript">
+          </div>
+          <div class="stackicons">
+            <img src="./images/php.png" alt="PHP Logo" title="PHP">
+          </div>
+          <div class="stackicons">
+            <img src="./images/c-.png" alt="C++ Logo" title="C++">
+          </div>
+          <div class="stackicons">
+            <img src="/images/pngwing.com (1).png" alt="C Logo" title="C">
+          </div>
+          <div class="stackicons">
+            <img src="./images/pngwing.com.png" alt="Arduino Logo" title="Arduino">
+          </div>
+          <div class="stackicons">
+            <img src="./images/SQL.png" alt="Arduino Logo" title="SQL">
+          </div>
+          <div class="stackicons">
+            <img src="./images/VsCode.png" alt="Arduino Logo" title="Vs Code">
+          </div>
+          <div class="stackicons">
+            <img src="./images/Github.png" alt="Arduino Logo" title="Github">
+          </div>
+          <div class="stackicons">
+            <img src="./images/Wordpress.png" alt="Arduino Logo" title="Wordpress">
+          </div>
+        </div>
+      </div>
 
-                        <!-- Form Inputs. Each input must have a name="" attribute -->
-                        <input type="text" name="name" placeholder="Name" required>
-                        <input type="email" name="email" placeholder="Email" required>
-                        <textarea name="message" placeholder="Message" required></textarea>
-                    
-                        <!-- Honeypot Spam Protection -->
-                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-                    
-                        <button type="submit">Submit Form</button>
+    </div>
+  </section>
 
-                        <p id="result"></p>
-                    
-                    </form>
-                </div>
+  <section class="projects" id="projects">
 
-                <div class="socialcontainer">
-                    <div class="icons">
-                        <a href="https://github.com/ModithaM" target="_blank">
-                            <ion-icon name="logo-github" title="Github" id="github"></ion-icon>
-                        </a>
-                    </div>
-                    <div class="icons">
-                        <a href="https://www.instagram.com/moditha_marasingha/?igsh=cjhjem4ybnawogm0" target="_blank">
-                            <ion-icon name="logo-instagram" title="Instagram" id="Instagram"></ion-icon>
-                        </a>
-                    </div>
-                    <div class="icons">
-                        <a href="https://www.linkedin.com/in/moditha-marasingha/" target="_blank">
-                            <ion-icon name="logo-linkedin" title="Linkedin" id="Linkedin"></ion-icon>
-                        </a>
-                    </div>
-                    <div class="icons">
-                        <a href="mailto: marasinghamoditha51@gmail.com">
-                            <ion-icon name="mail-outline" title="Email" id="Email"></ion-icon>
-                        </a>
-                    </div>
-                </div>
+    <div class="contacttitle">
+      <p id="aboutp"><em>Showcase of Work</em></p>
+      <h1 id="aboutH">previous Projects</h1>
+    </div>
 
-                <div class="mymail">
-                    <p><b>Email:</b><a href="mailto: marasinghamoditha51@gmail.com"> marasinghamoditha51@gmail.com</a></p>
-                </div>
+    <div class="projectcontainer">
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/My Portfolio.png" alt="My Portfolio Screenshot" />
+          </figure>
+          <div class="article-body">
+            <h2>My Portfolio</h2>
+            <p>
+              This portfolio is a prime example of my web development skills, designed and coded entirely using HTML,
+              CSS, and JavaScript without the use of any CSS libraries. It demonstrates my ability to create responsive,
+              user-friendly, and visually appealing web designs through clean and efficient code.
+            </p>
+            <a href="https://github.com/ModithaM/moditham.github.io" target="_blank" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article>
 
-            </div>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/tipfordiy.com.jpg" alt="Tipfordiy.com" />
+          </figure>
+          <div class="article-body">
+            <h2>Blog</h2>
+            <p>
+              I developed and manage a WordPress blog focused on the DIY niche, where I publish weekly blog posts
+              showcasing creative and detailed DIY projects. This blog not only highlights my expertise in content
+              creation but also demonstrates my proficiency in WordPress development and web design.
+            </p>
+            <a href="https://www.tipfordiy.com/" target="_blank" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article>
 
-            <footer class="footer">
-                <p>&copy; <span id="displayYear"></span> Moditha | All rights reserved.</p>
-            </footer>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/website-design-idea-gradients-in-web-design-example-4.jpg" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Upcoming Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, sed ut. Iste quisquam praesentium numquam
+              eveniet pariatur vitae veritatis error, enim commodi asperiores. Aut aperiam consequatur alias numquam,
+              perspiciatis nulla.
+            </p>
+            <a href="#" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
 
-            <!--Pre loader div-->
-            <div class='pre-loader'>
-                <div class="cssanimation"></div>
-            </div>
-            
-            <!--font for hamburger menu-->
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/Upcoming P 1.jpeg" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Upcoming Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque obcaecati, officia velit delectus quibusdam
+              animi dolores! Quisquam, repellat error totam ipsa quam, aliquam natus ratione ipsam quibusdam, sint
+              reiciendis provident.
+            </p>
+            <a href="#" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
 
-            <!--js file linked-->
-            <script src="script.js"></script>
-    </body>
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/Upcoming P 2.webp" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Upcoming Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum hic illum amet est reprehenderit
+              voluptas possimus, beatae laudantium sunt natus eum eveniet tempora earum quis quae magnam, asperiores
+              fugit.
+            </p>
+            <a href="#" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/Upcoming p 3.png" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Upcoming Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae a, impedit quis repudiandae, recusandae
+              pariatur suscipit unde, quibusdam similique quaerat saepe ratione. Temporibus, magni expedita? Ut corporis
+              aperiam ex modi.
+            </p>
+            <a href="#" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  <section class="contactme" id="contactme">
+
+    <div class="contacttitle">
+      <p id="aboutp"><em>Get in Touch</em></p>
+      <h1 id="aboutH">Contact Me</h1>
+    </div>
+
+    <div class="contactform">
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="2510f8a8-388f-4f7b-b618-f4200feff6da">
+
+        <input type="hidden" name="subject" value="New Contact Form Submission From Portfolio">
+
+        <input type="hidden" name="redirect" value="https://moditham.github.io//thankyou.html">
+
+        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <button type="submit">Submit Form</button>
+
+        <p id="result"></p>
+
+      </form>
+    </div>
+
+    <div class="socialcontainer">
+      <div class="icons">
+        <a href="https://github.com/ModithaM" target="_blank">
+          <ion-icon name="logo-github" title="Github" id="github"></ion-icon>
+        </a>
+      </div>
+      <div class="icons">
+        <a href="https://www.instagram.com/moditha_marasingha/?igsh=cjhjem4ybnawogm0" target="_blank">
+          <ion-icon name="logo-instagram" title="Instagram" id="Instagram"></ion-icon>
+        </a>
+      </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/moditha-marasingha/" target="_blank">
+          <ion-icon name="logo-linkedin" title="Linkedin" id="Linkedin"></ion-icon>
+        </a>
+      </div>
+      <div class="icons">
+        <a href="mailto: marasinghamoditha51@gmail.com">
+          <ion-icon name="mail-outline" title="Email" id="Email"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="mymail">
+      <p><b>Email:</b><a href="mailto: marasinghamoditha51@gmail.com"> marasinghamoditha51@gmail.com</a></p>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>&copy; <span id="displayYear"></span> Moditha | All rights reserved.</p>
+  </footer>
+
+  <!--Pre loader div-->
+  <div class='pre-loader'>
+    <div class="cssanimation"></div>
+  </div>
+
+  <!--font for hamburger menu-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!--js file linked-->
+  <script src="script.js"></script>
+</body>
 
 </html>
