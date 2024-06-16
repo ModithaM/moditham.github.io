@@ -242,9 +242,11 @@ a:hover{
 .about_grid{
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;
-    row-gap: 10px;
-    margin-bottom: 45px;
+    row-gap: 15px;
+    column-gap: 15px;
+    margin-bottom: 30px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .about_item{
@@ -253,7 +255,6 @@ a:hover{
     box-shadow: 10px 10px 5px hsl(240, 2%, 64%);
     padding: 1.5rem;
     border-radius: 15px;
-    margin: 0 11px;
     text-align: center;
     justify-content: center;
 }
@@ -586,6 +587,8 @@ article:has(:hover, :focus){
 /*Preloader styles end*/
 
 
+/* Media Quaries */
+
 @media (width < 750px){
     .image {
         grid-area: 1/1/2/2;
@@ -606,6 +609,10 @@ article:has(:hover, :focus){
 @media(max-width: 477px){
     .mymail{
         font-size: 15px;
+    }
+
+    .about_grid{
+        flex-direction: column;
     }
 
 }
