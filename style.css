@@ -466,7 +466,8 @@ article:has(:hover, :focus){
     background-color: #ba70f3;
     border: 1px solid #ba70f3;
     color: white;
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: bold;
     border-radius: 5px;
 }
 
