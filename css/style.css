@@ -1,3 +1,9 @@
+:root {
+    --bgcolormain: #eff4fd;
+    --bgcolor2: #e0e7f2;
+    --purple: #ba70f3;
+  }
+
 *{
     margin: 0; /* "*" This is a CSS universal selector, which applies styles to all elements in the HTML document.*/
     padding: 0;
@@ -9,7 +15,7 @@ html{
 }
 
 body{
-    background-color: #eff4fd;
+    background-color: var(--bgcolormain);
 }
 
 
@@ -93,7 +99,7 @@ nav ul li a{
 /*Hamberger menu end*/
 
 a:hover{
-    color: #ba70f3;
+    color: var(--purple);
     transition: 0.3s;
 }
 
@@ -101,13 +107,13 @@ a:hover{
     padding: 10px 10px 10px 10px;
     border-radius: 20px;
     color: #eff4fd;
-    border: 2px solid #ba70f3;
-    background-color: #ba70f3;
+    border: 2px solid var(--purple);
+    background-color: var(--purple);
 }
 
 .Contact:hover{
     background-color: transparent;
-    color: #ba70f3;
+    color: var(--purple);
     transition: 0.4s;
 }
 
@@ -201,7 +207,7 @@ a:hover{
 }
 
 .hello{
-    color: #ba70f3;
+    color: var(--purple);
 }
 
 
@@ -210,7 +216,7 @@ a:hover{
 /*About Me Section*/
 
 .about{
-    background-color: #e0e7f2;
+    background-color: var(--bgcolor2);
     width: 100%;
     height: auto;
 }
@@ -376,11 +382,11 @@ article a{
     display: inline-flex;
     align-items: center;
     text-decoration: none;
-    color: #ba70f3;
+    color: var(--purple);
 }
   
 article a:focus{
-    outline: 1px dotted #ba70f3;
+    outline: 1px dotted var(--purple);
 }
   
 article a .icon{
@@ -396,7 +402,7 @@ article a .icon{
   /* using the has() relational pseudo selector to update our custom properties */
 article:has(:hover, :focus){
     --img-scale: 1.1;
-    --title-color: #ba70f3;
+    --title-color: var(--purple);
     --link-icon-translate: 0;
     --link-icon-opacity: 1;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
@@ -417,7 +423,7 @@ article:has(:hover, :focus){
 /*Contact me Section*/
 
 .contactme{
-    background-color: #e0e7f2;
+    background-color: var(--bgcolor2);
     height: auto;
 }
 
@@ -444,7 +450,7 @@ article:has(:hover, :focus){
 }
 
 .contactform input{
-    background-color: #e0e7f2;
+    background-color: var(--bgcolor2);
     min-height: 50px;
     font-size: large;
     border: 2px solid rgba(0, 0, 0, 0.588);
@@ -454,7 +460,7 @@ article:has(:hover, :focus){
 }
 
 .contactform textarea{
-    background-color: #e0e7f2;
+    background-color: var(--bgcolor2);
     border: 2px solid rgba(0, 0, 0, 0.588);
     max-width: 500px;
     min-height: 150px;
@@ -467,8 +473,8 @@ article:has(:hover, :focus){
     width: 105px;
     height: 35px;
     margin-top: 7px;
-    background-color: #ba70f3;
-    border: 1px solid #ba70f3;
+    background-color: var(--purple);
+    border: 1px solid var(--purple);
     color: white;
     font-size: 15px;
     font-weight: bold;
@@ -477,7 +483,7 @@ article:has(:hover, :focus){
 
 .contactform button:hover{
     background-color: transparent;
-    color: #ba70f3;
+    color: var(--purple);
     transition: 0.4s;
 }
 
@@ -545,7 +551,7 @@ article:has(:hover, :focus){
 .cssanimation{
     width: 70px;
     aspect-ratio: 1;
-    --c: no-repeat linear-gradient(#ba70f3 0 0);
+    --c: no-repeat linear-gradient(var(--purple) 0 0);
     background:
     var(--c) 0% 50%,
     var(--c) 50% 50%,
