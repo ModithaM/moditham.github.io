@@ -65,7 +65,7 @@ function hidePreloader() {
 }
 
 // Set a timeout to hide the preloader after 1.5 seconds
-const preloaderTimeout = setTimeout(hidePreloader, 1500);
+const preloaderTimeout = setTimeout(hidePreloader, 5000);
 
 // Hide the preloader when the site is fully loaded
 window.addEventListener('load', function () {
