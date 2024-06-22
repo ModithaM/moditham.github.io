@@ -59,10 +59,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 //js for hide preloader after site loaded
-
-window.addEventListener('load', function () {
+// Function to hide the preloader
+function hidePreloader() {
     document.querySelector('.pre-loader').className += ' hidden';
+}
+
+// Set a timeout to hide the preloader after 1.5 seconds
+const preloaderTimeout = setTimeout(hidePreloader, 1500);
+
+// Hide the preloader when the site is fully loaded
+window.addEventListener('load', function () {
+    clearTimeout(preloaderTimeout);  // Clear the timeout if the page loads within 1.5 seconds
+    hidePreloader();
 });
+
+
 
 
 // to get current year
@@ -71,7 +82,6 @@ function getYear() {
     var currentYear = currentDate.getFullYear();
     document.querySelector("#displayYear").innerHTML = currentYear;
 }
-
 getYear();
 
 
