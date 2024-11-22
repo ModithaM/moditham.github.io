@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale = 1.0">
-  <title>Moditha Marasingha</title>
+  <title>Contact Me</title>
   <link rel="stylesheet" href="/css/style.css">
   <meta name="description" content="Explore the portfolio of Moditha Marasingha, a Software Engineer undergraduate. Skilled in full stack development.">
   <meta name="keywords" content="ModithaM, Moditha, Web Developer, Software Engineer, Moditha Marasingha, Backend Developer">
@@ -29,20 +29,20 @@
               <path
                 d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
             </svg></a></li>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="projects.html">projects</a></li>
         <li><a href="MyBlog">Blog</a></li>
-        <li><a href="contact.html">Contact Me</a></li>
+        <li><a href="#">Contact Me</a></li>
       </ul>
 
       <!--PC Menu-->
       <ul>
-        <li class="hideOnMobile"><a href="#">Home</a></li>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
         <li class="hideOnMobile"><a href="about.html">About</a></li>
         <li class="hideOnMobile"><a href="projects.html">projects</a></li>
         <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
-        <li class="hideOnMobile"><a href="contact.html"><span class="Contact">Contact Me</span></a></li>
+        <li class="hideOnMobile"><a href="#"><span class="Contact">Contact Me</span></a></li>
         <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
               viewBox="0 96 960 960" width="26">
               <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
@@ -53,19 +53,65 @@
   </header>
 
 
-  <section class="maincontent" id="home">
-    <div id="mydetails">
-      <h1><span class="hello">Hi, I'm</span> Moditha Marasingha</h1>
-      <h2 id="animated-text">I'm a </h2>
-      <p>Welcome to my portfolio! I,m Moditha an aspiring IT professional currently studying at SLIIT.
-        Within these pages, you'll find a
-        collection of my projects, experiences, and skills.
-      </p>
+  <section class="contactme" id="contactme">
+
+    <div class="contacttitle">
+      <p id="aboutp"><em>Let's do something amazing !</em></p>
+      <h1 id="aboutH">Contact Me</h1>
     </div>
 
-    <div class="image">
-      <img src="./images/me.webp" width="500px" alt="me">
+    <div class="contactform">
+      <form action="https://api.web3forms.com/submit" method="POST">
+
+        <!-- Replace with your Access Key -->
+        <input type="hidden" name="access_key" value="2510f8a8-388f-4f7b-b618-f4200feff6da">
+
+        <input type="hidden" name="subject" value="New Contact Form Submission From Portfolio">
+
+        <input type="hidden" name="redirect" value="https://moditham.github.io//thankyou.html">
+
+        <!-- Form Inputs. Each input must have a name="" attribute -->
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+
+        <!-- Honeypot Spam Protection -->
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <button type="submit">Submit Form</button>
+
+        <p id="result"></p>
+
+      </form>
     </div>
+
+    <div class="socialcontainer">
+      <div class="icons">
+        <a href="https://github.com/ModithaM" target="_blank">
+          <ion-icon name="logo-github" title="Github" id="github"></ion-icon>
+        </a>
+      </div>
+      <div class="icons">
+        <a href="https://www.instagram.com/moditha_marasingha/?igsh=cjhjem4ybnawogm0" target="_blank">
+          <ion-icon name="logo-instagram" title="Instagram" id="Instagram"></ion-icon>
+        </a>
+      </div>
+      <div class="icons">
+        <a href="https://www.linkedin.com/in/moditha-marasingha/" target="_blank">
+          <ion-icon name="logo-linkedin" title="Linkedin" id="Linkedin"></ion-icon>
+        </a>
+      </div>
+      <div class="icons">
+        <a href="mailto: marasinghamoditha51@gmail.com">
+          <ion-icon name="mail-outline" title="Email" id="Email"></ion-icon>
+        </a>
+      </div>
+    </div>
+
+    <div class="mymail">
+      <p><b>Email:</b><a href="mailto: marasinghamoditha51@gmail.com"> marasinghamoditha51@gmail.com</a></p>
+    </div>
+
   </section>
 
   <footer class="footer">

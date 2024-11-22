@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="description" content="Explore the portfolio of Moditha Marasingha, a Software Engineer undergraduate. Skilled in full stack development.">
+  <meta name="keywords" content="ModithaM, Moditha, Web Developer, Software Engineer, Moditha Marasingha, Backend Developer">
+  <meta property="og:image" content="https://moditham.github.io/images/me.jpeg" /> <!--Social preview image-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+</head>
+
+<body>
+
+
+  <header class="navigationheader">
+    <nav>
+      <a href="https://moditham.github.io/"><img src="./images/logo.png" alt="Logo" width="200px"></a>
+
+      <!--Mobile Menu-->
+      <ul class="sidebar">
+        <li onclick="(function(event) { event.preventDefault(); hideSidebar(); })(event)"><a href="#"><svg
+              xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+            </svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#">projects</a></li>
+        <li><a href="MyBlog">Blog</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+
+      <!--PC Menu-->
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="about.html">About</a></li>
+        <li class="hideOnMobile"><a href="#projects">projects</a></li>
+        <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
+        <li class="hideOnMobile"><a href="contact.html"><span class="Contact">Contact Me</span></a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26">
+              <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg></a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <section class="projects" id="projects">
+
+    <div class="contacttitle">
+      <p id="aboutp"><em>Showcase of Work</em></p>
+      <h1 id="aboutH">previous Projects</h1>
+    </div>
+
+    <div class="projectcontainer">
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/My Portfolio.webp" alt="My Portfolio Screenshot" />
+          </figure>
+          <div class="article-body">
+            <h2>My Portfolio</h2>
+            <p>
+              This portfolio is a prime example of my web development skills, designed and coded entirely using HTML,
+              CSS, and JavaScript without the use of any CSS libraries. It demonstrates my ability to create responsive,
+              user-friendly, and visually appealing web designs through clean and efficient code.
+            </p>
+            <a href="https://github.com/ModithaM/moditham.github.io" target="_blank" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/tipfordiy.com.jpg" alt="Tipfordiy.com" />
+          </figure>
+          <div class="article-body">
+            <h2>Blog</h2>
+            <p>
+              I developed and manage a WordPress blog focused on the DIY niche, where I publish weekly blog posts
+              showcasing creative and detailed DIY projects. This blog not only highlights my expertise in content
+              creation but also demonstrates my proficiency in WordPress development and web design.
+            </p>
+            <a href="https://www.tipfordiy.com/" target="_blank" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/blogss 4.05.22 PM.webp" alt="Blog Image" />
+          </figure>
+          <div class="article-body">
+            <h2>Personal Blog</h2>
+            <p>
+              I developed and manage a custom-themed blog using Hugo, where I regularly share content on 
+              topics I'm passionate about. This blog showcases my skills in content creation, static site
+               generation, and web design with Hugo, all while reflecting my unique personal style.
+            </p>
+            <a href="https://github.com/ModithaM/MyBlog" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/PharmacyX.png" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Online Pharmacy Portal</h2>
+            <p>
+              PharmacyX is an online pharmacy system for browsing medications, uploading prescriptions, and 
+              managing orders. Built with HTML, CSS, JavaScript, PHP, and MySQL, it was a group project where 
+              I managed development and collaboration using GitHub.
+            </p>
+            <a href="https://github.com/ModithaM/Online_Pharmacy_Portal" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/Upcoming P 2.webp" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Upcoming Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur cum hic illum amet est reprehenderit
+              voluptas possimus, beatae laudantium sunt natus eum eveniet tempora earum quis quae magnam, asperiores
+              fugit.
+            </p>
+            <a href="#" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <article>
+        <div class="article-wrapper">
+          <figure>
+            <img src="./images/Upcoming p 3.png" alt="" />
+          </figure>
+          <div class="article-body">
+            <h2>Upcoming Project</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae a, impedit quis repudiandae, recusandae
+              pariatur suscipit unde, quibusdam similique quaerat saepe ratione. Temporibus, magni expedita? Ut corporis
+              aperiam ex modi.
+            </p>
+            <a href="#" class="read-more">
+              View Project <span class="sr-only">about this is some title</span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+  </section>
+
+  
+  <footer class="footer">
+    <p>&copy; <span id="displayYear"></span> Moditha | All rights reserved.</p>
+  </footer>
+
+  <!--Pre loader div-->
+  <div class='pre-loader'>
+    <div class="cssanimation"></div>
+  </div>
+
+  <!--font for hamburger menu-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!--js file linked-->
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

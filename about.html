@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <meta name="description" content="Explore the portfolio of Moditha Marasingha, a Software Engineer undergraduate. Skilled in full stack development.">
+  <meta name="keywords" content="ModithaM, Moditha, Web Developer, Software Engineer, Moditha Marasingha, Backend Developer">
+  <meta property="og:image" content="https://moditham.github.io/images/me.jpeg" /> <!--Social preview image-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png">
+</head>
+
+<body>
+
+
+  <header class="navigationheader">
+    <nav>
+      <a href="https://moditham.github.io/"><img src="./images/logo.png" alt="Logo" width="200px"></a>
+
+      <!--Mobile Menu-->
+      <ul class="sidebar">
+        <li onclick="(function(event) { event.preventDefault(); hideSidebar(); })(event)"><a href="#"><svg
+              xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+              <path
+                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+            </svg></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="MyBlog">Blog</a></li>
+        <li><a href="contact.html">Contact Me</a></li>
+      </ul>
+
+      <!--PC Menu-->
+      <ul>
+        <li class="hideOnMobile"><a href="index.html">Home</a></li>
+        <li class="hideOnMobile"><a href="#">About</a></li>
+        <li class="hideOnMobile"><a href="projects.html">projects</a></li>
+        <li class="hideOnMobile"><a href="MyBlog">Blog</a></li>
+        <li class="hideOnMobile"><a href="contact.html"><span class="Contact">Contact Me</span></a></li>
+        <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+              viewBox="0 96 960 960" width="26">
+              <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+            </svg></a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <section class="about" id="about">
+    <div class="abouttitle">
+      <p id="aboutp"><em>Get To Know More</em></p>
+      <h1 id="aboutH">About Me</h1>
+    </div>
+
+    <div class="about_container">
+      <div class="about_grid">
+        <div class="about_item">
+          <img src="./images/verified.png" alt="expereance logo" width="45px">
+          <h3>Experience</h3>
+          <p>1+ Years</p>
+          <p>Backend Developer</p>
+        </div>
+
+        <div class="about_item">
+          <img src="./images/programming.webp" alt="tech stack" width="45px">
+          <h3>Tech Stack</h3>
+          <p>HTML, CSS, JavaScript, PHP, Java</p>
+        </div>
+
+        <div class="about_item">
+          <img src="./images/education.webp" alt="education logo" width="45px">
+          <h3>Education</h3>
+          <p>Undergraduate at SLIIT</p>
+          <p>Bsc in Software Engineering</p>
+        </div>
+
+      </div>
+      <div class="about_paragraph">
+        <p><span class="hello">Hello!</span>
+          I'm Moditha Marasingha, a passionate Software Engineering undergraduate at SLIIT University. I specialize in building innovative web solutions
+          to tackle real-world problems.
+        </p>
+
+        <p>
+          Beyond the screen, I'm an avid enthusiast of IoT and IIoT projects, often tinkering with Arduino and
+          NodeMCU modules. Coding is not just a skill for me—it's a love that drives my curiosity and creativity.
+        </p>
+
+        <p>
+          My career goal is to become a leading software engineer who contributes to cutting-edge technologies and
+          impactful projects. I'm committed to continuous learning and growth, both professionally and personally.
+        </p>
+
+        <p class="lastp">
+          When I'm not coding, I enjoy exploring new tech trends, reading about advancements in IoT, and
+          experimenting with new gadgets. Thank you for visiting my website; feel free to explore my projects and reach
+          out
+          for collaboration or tech chats!
+        </p>
+
+      </div>
+
+      <div class="stack">
+        <h3>Languages and Tools</h3>
+
+        <div class="stackiconscontainer">
+          <div class="stackicons">
+            <img src="./images/html-5.webp" alt="HTML Logo" title="HTML">
+          </div>
+          <div class="stackicons">
+            <img src="./images/css-3.webp" alt="CSS Logo" title="CSS">
+          </div>
+          <div class="stackicons">
+            <img src="./images/js.png" alt="Javascript Logo" title="Javascript">
+          </div>
+          <div class="stackicons">
+            <img src="./images/php.png" alt="PHP Logo" title="PHP">
+          </div>
+          <div class="stackicons">
+            <img src="./images/c-.webp" alt="C++ Logo" title="C++">
+          </div>
+          <div class="stackicons">
+            <img src="/images/Clogo.webp" alt="C Logo" title="C">
+          </div>
+          <div class="stackicons">
+            <img src="./images/arduino.webp" alt="Arduino Logo" title="Arduino">
+          </div>
+          <div class="stackicons">
+            <img src="./images/SQL.webp" alt="SQL Logo" title="SQL">
+          </div>
+          <div class="stackicons">
+            <img src="./images/VsCode.webp" alt="Vs Code Logo" title="Vs Code">
+          </div>
+          <div class="stackicons">
+            <img src="./images/Github.png" alt="Github Logo" title="Github">
+          </div>
+          <div class="stackicons">
+            <img src="./images/Wordpress.webp" alt="Wordpress Logo" title="Wordpress">
+          </div>
+          <div class="stackicons">
+            <img src="./images/analytics.webp" alt="google analytics" title="google analytics">
+          </div>
+          <div class="stackicons">
+            <img src="./images/ezoic.png" alt="Ezoic" title="ezoic">
+          </div>
+          <div class="stackicons">
+            <img src="./images/adsense.webp" alt="Adsense" title="Adsense">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <p>&copy; <span id="displayYear"></span> Moditha | All rights reserved.</p>
+  </footer>
+
+  <!--Pre loader div-->
+  <div class='pre-loader'>
+    <div class="cssanimation"></div>
+  </div>
+
+  <!--font for hamburger menu-->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!--js file linked-->
+  <script src="/js/script.js"></script>
+</body>
+
+</html>
