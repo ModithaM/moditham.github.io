@@ -58,7 +58,7 @@ nav ul li a{
     right: 0;
     height: 100vh;
     width: 250px;
-    background-color: rgba(147, 142, 142, 0.15);
+    background-color: white;
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     list-style: none;
     display: none;
@@ -100,6 +100,10 @@ nav ul li a{
 a:hover{
     color: var(--purple);
     transition: 0.3s;
+}
+
+a.currentwindow{
+    color: var(--purple);
 }
 
 .Contact{
