@@ -15,12 +15,14 @@ html{
 }
 
 body{
-    background-color: var(--bgcolormain);
+    /*background-color: var(--bgcolormain);*/
+    background-image: url(../images/bg.webp);
+    background-repeat:repeat;
 }
 
 
 .navigationheader{
-    background-color: white;
+    background-image: url(../images/bg.webp);
     width: 100%;
     height: 80px;
     position: fixed;
@@ -272,7 +274,7 @@ a.currentwindow{
 /*About Me Section*/
 
 .about{
-    background-color: var(--bgcolor2);
+    background-image: url(../images/bg.webp);
     width: 100%;
     height: auto;
 }
@@ -477,7 +479,7 @@ article:has(:hover, :focus){
 /*Contact me Section*/
 
 .contactme{
-    background-color: var(--bgcolor2);
+    background-image: url(../images/bg.webp);
     height: auto;
 }
 
