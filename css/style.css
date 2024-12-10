@@ -139,7 +139,8 @@ a.currentwindow{
   
 .image img{
     width: min(25rem, 90%);
-    border-radius: 40px;
+    border-radius: 50px 20px 50px 20px;
+    /*border-radius: 40px; */
     /*box-shadow: 0px 0px 60px 10px #ad8ec5;*/
     /* in order: x offset, y offset, blur size, spread size, color */
    /* -webkit-animation: upDown 8s infinite;
