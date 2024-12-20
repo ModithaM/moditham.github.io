@@ -25,10 +25,7 @@ body{
     background-image: url(../images/bg.webp);
     width: 100%;
     height: 80px;
-    position: fixed;
-    backdrop-filter: blur(3px);
     top: 0;
-    z-index: 1000;
 }
 
 nav{
@@ -111,7 +108,7 @@ a.currentwindow{
 /*Home Section*/
 
 .maincontent{
-    min-height: 100vh;
+    min-height: 80vh;
     max-width: 1200px;
     margin: auto;
     padding: 1rem;
@@ -282,7 +279,7 @@ a.currentwindow{
 
 .abouttitle{
     position: relative;
-    top: 90px;
+    top: 10px;
 }
 
 #aboutp{
@@ -298,7 +295,7 @@ a.currentwindow{
 
 
 .about_container{
-    margin-top: 120px;
+    margin-top: 40px;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
@@ -398,6 +395,7 @@ article{
     transform-origin: center;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
   
 article a::after{
@@ -485,7 +483,7 @@ article:has(:hover, :focus){
 }
 
 .contacttitle{
-    padding-top: 90px;
+    padding-top: 10px;
 }
 
 .contactform{
@@ -661,7 +659,7 @@ article:has(:hover, :focus){
     }
 
     .maincontent{
-        padding: 10rem 1rem 5rem 1rem;
+        padding: 2rem 1rem 2rem 1rem;
         grid-template-columns: repeat(1, 1fr);
     }
     .stackicons img{
